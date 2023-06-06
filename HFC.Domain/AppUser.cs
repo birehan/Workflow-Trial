@@ -4,6 +4,6 @@ namespace HFC.Domain
 {
     public class AppUser : IdentityUser
     {
-        public ICollection<Task> Tasks { get; set; }
+        public ICollection<Task> Tasks { get; set; } = new List<Task>();
     }
 }

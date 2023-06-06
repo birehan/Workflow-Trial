@@ -14,16 +14,16 @@ namespace HFC.Domain
 
         public Sector UserSector { get; set; }
 
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
-        public string Title { get; set; }
+        public string? Title { get; set; }
 
 
-        public string About { get; set; }
+        public string? About { get; set; }
 
-        public string PhotoId { get; set; }
+        public string? PhotoId { get; set; }
 
-        public Photo Photo { get; set; }
+        public Photo? Photo { get; set; }
 
 
     }

@@ -6,8 +6,8 @@ namespace HFC.Domain
     public class Task : BaseDomainEntity
     {
         // write me fields title, desription, startDate, endDate, status and AppUser user
-        public string Title { get; set; }
-        public string Description { get; set; }
+        public string? Title { get; set; }
+        public string? Description { get; set; }
 
         public DateTime StartDate { get; set; }
 
@@ -17,8 +17,8 @@ namespace HFC.Domain
 
 
 
-        public string CreatorId { get; set; }
+        public string? CreatorId { get; set; }
 
-        public AppUser Creator { get; set; }
+        public AppUser? Creator { get; set; }
     }
 }
